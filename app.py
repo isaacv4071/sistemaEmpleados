@@ -10,7 +10,7 @@ from pymysql import cursors
 
 
 app = Flask(__name__) #se crea la aplicación
-app.secret_key="isaacv4071"
+app.secret_key="developed"
 
 mysql = MySQL()
 #uso de mysql y conexion con los datos
